@@ -1,0 +1,28 @@
+<h1>Edit Photo <%= @movie.id %> </h1>
+
+<form action="http://localhost:3000/update_movie/<%= @movie.id %>">
+
+  <div>
+    <label for="movie_year">Year:</label>
+    <input id="movie_year" type="text" name="the_movie_year">
+  </div>
+  <div>
+    <label for="movie_duration">Duration:</label>
+    <input id="movie_duration" type="text" name="the_movie_duration">
+  </div>
+    <div>
+    <label for="movie_description">Description:</label>
+    <input id="movie_description" type="text" name="the_movie_description">
+  </div>
+    <div>
+    <label for="move_image_url">Image_URL:</label>
+    <input id="movie_image_url" type="text" name="the_movie_image_url">
+  </div>
+  <div>
+    <label for="movie_title">Image_URL:</label>
+    <input id="movie_title" type="text" name="the_movie_title">
+  </div>
+  <div>
+    <button>Create Movie</button>
+  </div>
+</form>
